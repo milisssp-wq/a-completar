@@ -2,7 +2,7 @@
 function TarjetaPerro({ imagen }) {
   return (
     <article className="tarjeta">
-      <h2>Título de ejemplo</h2>
+      <h2>El perro elegido es...</h2>
       { imagen ? (
 
       <img src={imagen} alt= "imagen de un perrito"></img>
